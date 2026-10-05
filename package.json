@@ -1,0 +1,30 @@
+{
+	"name": "pi-skill-loader",
+	"version": "0.1.0",
+	"description": "Deferred skills: strips the available-skills block from every provider request and loads skill menus or SKILL.md files on demand via a skill_load tool.",
+	"type": "module",
+	"license": "MIT",
+	"keywords": [
+		"pi",
+		"pi-package",
+		"skills",
+		"lazy-loading",
+		"prompt-cache"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hakergeniusz/pi-skill-loader.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hakergeniusz/pi-skill-loader/issues"
+	},
+	"homepage": "https://github.com/hakergeniusz/pi-skill-loader#readme",
+	"pi": {
+		"extensions": [
+			"./skill-loader.ts"
+		]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*"
+	}
+}
